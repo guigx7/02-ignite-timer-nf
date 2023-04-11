@@ -59,7 +59,8 @@ export const MinutesAmountImput = styled(BaseInput)`
 `
 
 export const CountdownContainer = styled.div`
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Chivo Mono', monospace;
   font-size: 10rem;
   line-height: 8rem;
   color: ${(props) => props.theme['gray-100']};
@@ -76,7 +77,7 @@ export const CountdownContainer = styled.div`
 export const Separator = styled.div`
   padding: 2rem 0;
   color: ${(props) => props.theme['green-500']};
-
+  font-family: 'Roboto Mono', monospace;
   width: 4rem;
   overflow: hidden;
   display: flex;
